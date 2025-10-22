@@ -23,4 +23,23 @@ public class App {
         // } else {
         //     System.out.println("Olet aikuinen");
 >>>>>>> 2a240b3a4674b2b3d02df5392bf54d456cb1ff63
+        // }    int ika = 100;
+
+        // if (ika > 0 && ika < 18) {
+        //     System.out.println("Olet alaikäinen");
+        // } else if (ika >= 65) {
+        //     System.out.println("Olet eläkeläinen");
+        // } else {
+        //     System.out.println("Olet aikuinen");
         // }
+      
+
+        // if (ika > 0 && ika < 18) {
+        //     System.out.println("Olet alaikäinen");
+
+        //     if (ika >= 15) {
+        //         System.out.println("Saat ajaa mopoa");
+        //     }
+
+        // } else if (ika >= 65) {
+        //     System.out.println("Olet eläkeläinen");

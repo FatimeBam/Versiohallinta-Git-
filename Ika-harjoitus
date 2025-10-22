@@ -87,3 +87,18 @@ public class App {
         // Eläkeläiset 65+
         else if (ika >= 65) {
             System.out.println("Olet eläkeläinen");
+      // Hyviä eläkepäiviä 65-vuotiaille
+            if (ika == 65) {
+                System.out.println("Hyviä eläkepäiviä!");
+            }
+
+            // Erityinen onnentoivotus 100-vuotiaille
+            if (ika == 100) {
+                System.out.println("Paljon onnea 100-vuotiaalle!");
+                System.out.println("Toivotamme sinulle hyvää terveyttä!");
+                System.out.println("Ja monta onnellista vuotta lisää!");
+            }
+        } 
+       
+    }
+}

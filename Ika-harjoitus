@@ -43,3 +43,47 @@ public class App {
 
         // } else if (ika >= 65) {
         //     System.out.println("Olet eläkeläinen");
+          // } else {
+        //     System.out.println("Olet aikuinen");
+        // }
+         // Alaikäiset
+        if (ika > 0 && ika < 18) {
+            System.out.println("Olet alaikäinen");
+
+            // Mopon ajoikä
+            if (ika >= 15 && ika <= 17) {
+                System.out.println("Saat ajaa mopoa");
+            }
+
+            // Kevan ajoikä
+            if (ika >= 16 && ika <= 17) {
+                System.out.println("Voit ajaa kevaria");
+            }
+        } 
+        // Täysi-ikäinen juuri 18-vuotias
+        else if (ika == 18) {
+            System.out.println("Olet juuri tullut täysi-ikäiseksi");
+            System.out.println("Saat ajaa autoa");
+        } 
+        // Aikuiset 19–64
+        else if (ika > 18 && ika < 65) {
+            System.out.println("Olet aikuinen");
+
+            // Tasavuosikymmenet
+            if (ika % 10 == 0) {
+                System.out.println("Onnittelut tasavuosikymmenestä!");
+            }
+
+            // Keski-ikätoivotus 40–50-vuotiaille
+            if (ika >= 40 && ika <= 50) {
+                System.out.println("Parasta keski-ikää!");
+            }
+
+            // Varhaiseläke 58+
+            if (ika >= 58) {
+                System.out.println("Voit harkita varhaiseläkettä");
+            }
+        } 
+        // Eläkeläiset 65+
+        else if (ika >= 65) {
+            System.out.println("Olet eläkeläinen");

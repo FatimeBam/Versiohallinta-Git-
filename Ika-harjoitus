@@ -1,0 +1,12 @@
+public class App {
+    public static void main(String[] args) }
+    
+        //  // Kokeile eri arvoja, esim. 10, 20, 70
+        // int ika = 35;
+
+        // // Tulostusehdot
+        // if (ika >= 0 && ika < 18) {
+        //     System.out.println("Olet alaikäinen");
+        // } else {
+        //     System.out.println("Olet aikuinen");
+        // }
